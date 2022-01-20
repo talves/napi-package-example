@@ -192,8 +192,9 @@ if (!nativeBinding) {
   throw new Error(`Failed to load native binding`)
 }
 
-const { getCwd, plus100, add } = nativeBinding
+const { getCwd, readFile, plus100, add } = nativeBinding
 
 module.exports.getCwd = getCwd
+module.exports.readFile = readFile
 module.exports.plus100 = plus100
 module.exports.add = add
