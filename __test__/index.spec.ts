@@ -11,3 +11,4 @@ test('add function from native code', (t) => {
   const fixture = 142
   t.is(add(100, 42), fixture)
 })
+

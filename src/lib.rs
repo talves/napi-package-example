@@ -12,4 +12,5 @@ extern crate napi_derive;
 #[global_allocator]
 static ALLOC: mimalloc::MiMalloc = mimalloc::MiMalloc;
 
+mod callback;
 mod number;

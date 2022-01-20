@@ -192,7 +192,8 @@ if (!nativeBinding) {
   throw new Error(`Failed to load native binding`)
 }
 
-const { plus100, add } = nativeBinding
+const { getCwd, plus100, add } = nativeBinding
 
+module.exports.getCwd = getCwd
 module.exports.plus100 = plus100
 module.exports.add = add
