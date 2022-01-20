@@ -1,13 +1,13 @@
-# `@napi-rs/package-template`
+# `@talves/napi-package-example`
 
-![https://github.com/napi-rs/package-template/actions](https://github.com/napi-rs/package-template/workflows/CI/badge.svg)
+![https://github.com/talves/napi-package-example/actions](https://github.com/talves/napi-package-example/workflows/CI/badge.svg)
 
 > Template project for writing node package with napi-rs.
 
 ## Install this test package
 
 ```
-yarn add @napi-rs/package-template
+yarn add @talves/napi-package-example
 ```
 
 ## Support matrix
