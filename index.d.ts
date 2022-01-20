@@ -7,3 +7,4 @@ export class ExternalObject<T> {
   }
 }
 export function plus100(input: number): number
+export function add(a: number, b: number): number
