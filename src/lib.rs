@@ -2,6 +2,8 @@
 
 #[macro_use]
 extern crate napi_derive;
+#[macro_use]
+extern crate serde_derive;
 
 #[cfg(all(
   any(windows, unix),
@@ -14,3 +16,4 @@ static ALLOC: mimalloc::MiMalloc = mimalloc::MiMalloc;
 
 mod callback;
 mod number;
+mod serde;
