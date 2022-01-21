@@ -15,5 +15,6 @@ extern crate serde_derive;
 static ALLOC: mimalloc::MiMalloc = mimalloc::MiMalloc;
 
 mod callback;
+mod error;
 mod number;
 mod serde;
